@@ -39,7 +39,7 @@ JOBS = [
 def hello_world():
     return render_template('index.html', jobs = JOBS)
 
-@app.route("/jobs")
+@app.route("/api/jobs")
 def list_jobs():
     return jsonify(JOBS)
 

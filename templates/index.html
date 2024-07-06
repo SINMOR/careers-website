@@ -15,12 +15,19 @@
     </style>
 </head>
 <body >
-    <div class="container">
+    {% include 'navbar.html' %}
+     <img src="/static/img2.jpg" class="img-fluid" id="picture" alt="motivationalpic">
+    <div class="container " >
         <h1 class="text-center mt-2  mb-4 "> Wams Careers</h1>
-        <img src="/static/img2.jpg" class="img-fluid" id="picture" alt="motivationalpic">
+        <div class="row">
+        <div class="col-md-6">
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis. Dui id ornare arcu odio ut sem nulla. Ultricies integer quis auctor elit sed vulputate mi sit. Odio euismod lacinia at quis risus sed vulputate odio. Id faucibus nisl tincidunt eget nullam non nisi est sit. Cras sed felis eget velit aliquet. Curabitur gravida arcu ac tortor dignissim convallis aenean et. Bibendum est ultricies integer quis. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Eu sem integer vitae justo eget. In eu mi bibendum neque. Et ultrices neque ornare aenean euismod elementum. Lacus sed turpis tincidunt id aliquet. Neque volutpat ac tincidunt vitae. Adipiscing elit pellentesque habitant.</p>
+        </div>
+        <div class=" d-none d-md-block col-md-6">
+            <img src="/static/img4.jpg" class="img-fluid" border-radius=" 4px" alt="peopleworking">
 
-        <h2 class="text-center mt-2  mb-2">About Wams</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis. Dui id ornare arcu odio ut sem nulla. Ultricies integer quis auctor elit sed vulputate mi sit. Odio euismod lacinia at quis risus sed vulputate odio. Id faucibus nisl tincidunt eget nullam non nisi est sit. Cras sed felis eget velit aliquet. Curabitur gravida arcu ac tortor dignissim convallis aenean et. Bibendum est ultricies integer quis. Tempus iaculis urna id volutpat lacus laoreet non curabitur. Eu sem integer vitae justo eget. In eu mi bibendum neque. Et ultrices neque ornare aenean euismod elementum. Lacus sed turpis tincidunt id aliquet. Neque volutpat ac tincidunt vitae. Adipiscing elit pellentesque habitant morbi tristique senectus. Non arcu risus quis varius quam quisque id diam vel. Blandit turpis cursus in hac habitasse platea dictumst quisque. Turpis tincidunt id aliquet risus feugiat in ante metus dictum. Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi.</p>
+        </div>
+       </div>
 
         <h2 class="text-center mt-2  mb-4">Open positions</h2>
         <p>
@@ -35,13 +42,12 @@
 
         <div class="text-center">
 
-        <button type="button" class="btn btn-primary btn-lg mt-2  mb-4" > Contact Info </button> 
-
-        <p class="mt-2">Copyright 2022</p>
+        <a href="mailto:morrisindet@gmail.com?subject=Question%20about%20careers%20at%20Wams%20&body=My%20name%20%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AQuestion%20%3A%20%3Center%20your%20question%3E" type="button" class="btn btn-primary btn-lg mt-2  mb-4" > Contact Info </a>
 
         </div>
-    
+        {% include 'footer.html' %}
 
     </div>
 </body>
+
 </html>
